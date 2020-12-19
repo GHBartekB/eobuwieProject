@@ -1,103 +1,109 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Christmas task</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
-    <header>
-        <img src="" alt="grafika przedstawiająca zestaw gwiazdek trójkątów i kółek">
-        <div class="video" alt="filmik świąteczny">
-            <video src="./assets/videos/xmass_video.mp4" autoplay loop playsinline muted alt="filmik świąteczny"></video>
-        </div>
-        
-        <div>
-            <p>Zamów dzisiaj, żeby zdążyc przed Świętami</p>
+    <header class="header">
+        <img class="header__image" src="./assets/images/mobile/img1_mob.jpg"
+            alt="grafika przedstawiająca zestaw gwiazdek trójkątów i kółek">
+
+        <video class="header__video" src="./assets/videos/xmass_video.mp4" autoplay loop playsinline muted
+            alt="filmik świąteczny">
+        </video>
+
+        <div class="header__div-text">
+            <p class="header__text">Zamów dzisiaj, żeby zdążyc przed Świętami</p>
         </div>
     </header>
-    <main>
-       <section class="main__gift-ideas">
-           <h1>Pomysły na prezenty:</h1>
-           <button>do 100 zł</button>
-           <button>od 100zł do 200 zł</button>
-           <button>od 200zł do 300zł</button>
-           <button>powyżej 300 zł</button>
-       </section>
-       <section class="main__gift-for-her">
+    <main class="main">
+        <section class="gift-ideas">
+            <h1>Pomysły na prezenty:</h1>
+            <button class="gift-ideas__button">do 100 zł</button>
+            <button class="gift-ideas__button">od 100zł do 200 zł</button>
+            <button class="gift-ideas__button">od 200zł do 300zł</button>
+            <button class="gift-ideas__button">powyżej 300 zł</button>
+        </section>
+        <section class="gift-for-her">
 
-         
-           <div class="topGraphics">
-            <img src="" alt="grafika przedstawiająca zestaw gwiazdek trójkątów i kółek">
-            <img src="" alt="zdjęcie kobiety">
-            <h2>Prezenty dla niej</h2>
-           </div>
-           <div class="products">
-               <div>torebka</div>
-               <div>szalik</div>
-               <div>naszyjnik</div>
-               <div>duży portfel</div>
-               <div>zestaw kosmetyczek</div>
-               <div>pasek damski</div>
-               <div>zestaw upominkowy -48%</div>
-               <div>czapka</div>
-           </div>
-           <button>Zobacz więcej</button>
-       </section>
+
+            <div class="topGraphics">
+                <img src="" alt="grafika przedstawiająca zestaw gwiazdek trójkątów i kółek">
+                <img src="" alt="zdjęcie kobiety">
+                <h2>Prezenty dla niej</h2>
+            </div>
+            <div class="products">
+                <div>torebka</div>
+                <div>szalik</div>
+                <div>naszyjnik</div>
+                <div>duży portfel</div>
+                <div>zestaw kosmetyczek</div>
+                <div>pasek damski</div>
+                <div>zestaw upominkowy -48%</div>
+                <div>czapka</div>
+            </div>
+            <button>Zobacz więcej</button>
+        </section>
 
     </main>
     <footer>
         <h2>Kalendarz dostaw</h2>
         <p>Uruchamiamy pogotowie prezentowe! Co zrobić, żeby prezenty dotarły na czas?</p>
-    <ol>
-        <li>Złóż zamówienie do 18 grudna 2020 roku do godziny 18:00. </li>
-        <li>Wybierz dostawę kurierem.</li>
-        <li>Zaznacz formę płatności - za pobraniem lub szybką płatność internetową (PayU, PayPal). </li>
-    </ol>
-    <div class="orderGraphics">
-        <div class="beforeChristmas">
-            <img src="" alt="biała gwiazdka">
-            <span>Dostawa przed świętami</span>
+        <ol>
+            <li>Złóż zamówienie do 18 grudna 2020 roku do godziny 18:00. </li>
+            <li>Wybierz dostawę kurierem.</li>
+            <li>Zaznacz formę płatności - za pobraniem lub szybką płatność internetową (PayU, PayPal). </li>
+        </ol>
+        <div class="orderGraphics">
+            <div class="beforeChristmas">
+                <img src="" alt="biała gwiazdka">
+                <span>Dostawa przed świętami</span>
+            </div>
+            <div class="afterChristmas">
+                <img src="" alt="czerwone kółko">
+                <span>Dostawa po świętach</span>
+            </div>
         </div>
-        <div class="afterChristmas">
-            <img src="" alt="czerwone kółko">
-            <span>Dostawa po świętach</span>
+        <div class="orderDate">
+            <div>Do kiedy zamawiać</div>
+            <div>13 grudnia</div>
+            <div>14 grudnia</div>
+            <div>15 grudnia</div>
+            <div>16 grudnia</div>
+            <div>17 grudnia</div>
+            <div>18 grudnia</div>
+            <div>19 grudnia</div>
+            <div>20 grudnia</div>
+            <div>21 grudnia</div>
+            <div>22 grudnia</div>
+            <div>23 grudnia</div>
+            <div>24 grudnia</div>
         </div>
-    </div>
-    <div class="orderDate">
-        <div>Do kiedy zamawiać</div>
-        <div>13 grudnia</div>
-        <div>14 grudnia</div>
-        <div>15 grudnia</div>
-        <div>16 grudnia</div>
-        <div>17 grudnia</div>
-        <div>18 grudnia</div>
-        <div>19 grudnia</div>
-        <div>20 grudnia</div>
-        <div>21 grudnia</div>
-        <div>22 grudnia</div>
-        <div>23 grudnia</div>
-        <div>24 grudnia</div>
-    </div>
-    <div class="orderDelivery">
-        <div>Dostawa kurierem</div>
-        <div><img src="" alt="biała gwiazdka"></div>
-        <div><img src="" alt="biała gwiazdka"></div>
-        <div><img src="" alt="biała gwiazdka"></div>
-        <div><img src="" alt="biała gwiazdka"></div>
-        <div><img src="" alt="biała gwiazdka"></div>
-        <div><img src="" alt="biała gwiazdka"> <span>zamówienie złożone do godz. 18:00</span><img src="" alt="czerwone kółko"></div>
-        <div><img src="" alt="czerwone kółko"></div>
-        <div><img src="" alt="czerwone kółko"></div>
-        <div><img src="" alt="czerwone kółko"></div>
-        <div><img src="" alt="czerwone kółko"></div>
-        <div><img src="" alt="czerwone kółko"></div>
-        <div><img src="" alt="czerwone kółko"></div>
-    </div>
-    <img src="" alt="grafika przedstawiająca zestaw gwiazdek trójkątów i kółek">
+        <div class="orderDelivery">
+            <div>Dostawa kurierem</div>
+            <div><img src="" alt="biała gwiazdka"></div>
+            <div><img src="" alt="biała gwiazdka"></div>
+            <div><img src="" alt="biała gwiazdka"></div>
+            <div><img src="" alt="biała gwiazdka"></div>
+            <div><img src="" alt="biała gwiazdka"></div>
+            <div><img src="" alt="biała gwiazdka"> <span>zamówienie złożone do godz. 18:00</span><img src=""
+                    alt="czerwone kółko"></div>
+            <div><img src="" alt="czerwone kółko"></div>
+            <div><img src="" alt="czerwone kółko"></div>
+            <div><img src="" alt="czerwone kółko"></div>
+            <div><img src="" alt="czerwone kółko"></div>
+            <div><img src="" alt="czerwone kółko"></div>
+            <div><img src="" alt="czerwone kółko"></div>
+        </div>
+        <img src="" alt="grafika przedstawiająca zestaw gwiazdek trójkątów i kółek">
     </footer>
 
     <script src="./js/script.js"></script>
 </body>
+
 </html>

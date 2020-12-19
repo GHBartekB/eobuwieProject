@@ -8,10 +8,57 @@ html {
   --greenPrimary: #2e5d39;
   --greenSecondary: #549c39;
   --redPrimary: #bf3936;
-  text-align: center;
+
 }
 
 .wrapper {
   max-width: 1280px;
   margin: 0 auto;
+}
+
+.header {
+  width: 95%;
+  margin: 5% auto 0;
+  overflow: hidden;
+  border: 2px solid red;
+
+}
+
+.header__image {
+  width: 100%;
+  margin-bottom: 20px;
+
+}
+
+.header__video {
+
+  width: 100%;
+}
+
+.header__div-text {
+  background-color: var(--greenPrimary);
+  align-self: flex-end;
+  justify-self: flex-end;
+}
+
+.header__text {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 2px;
+  font-size: 5vw;
+
+}
+
+@media(min-width:768px) {
+  .header__text {
+    font-size: 4vw;
+    padding: 1vw;
+  }
+}
+
+.main {
+  width: 95%;
+  margin: 5% auto 0;
+  border: 2px solid red;
 }
