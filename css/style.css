@@ -8,13 +8,10 @@ html {
   --greenPrimary: #2e5d39;
   --greenSecondary: #549c39;
   --redPrimary: #bf3936;
+  text-align: center;
 }
 
 .wrapper {
   max-width: 1280px;
   margin: 0 auto;
-}
-
-header {
-  background-color: var(--greenPrimary);
 }
