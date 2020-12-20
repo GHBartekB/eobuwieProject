@@ -185,3 +185,61 @@ html {
   background-color: #000;
   color: white;
 }
+
+.footer {
+
+  width: 95%;
+  margin: 5% auto 0;
+  overflow: hidden;
+  color: #fff;
+  border: 2px solid red;
+  background-color: var(--greenPrimary);
+}
+
+.footer__calendar-title {
+  margin: 5% 0;
+  font-size: 5vw;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.footer__calendar-description {
+  font-size: 3.5vw;
+  width: 90%;
+  margin: 10% auto;
+  text-align: center;
+
+}
+
+.footer__calendar-list {
+  margin: 5% 2.5%;
+  list-style: none;
+}
+
+.footer__calendar-list-element {
+  margin: 5% 0;
+  font-size: 2.8vw;
+}
+
+
+.footer__calendar-graphic {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr 3fr;
+  width: 80%;
+  margin: 10%;
+  align-items: center;
+  justify-items: center;
+
+}
+
+.footer__calendar-graphic-star {
+  width: 70%;
+}
+
+.footer__calendar-graphic-circle {
+  width: 50%;
+}
+
+.footer__calendar-graphic-text {
+  font-size: 2.8vw;
+}
