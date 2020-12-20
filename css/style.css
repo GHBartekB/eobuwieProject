@@ -328,3 +328,51 @@ html {
   width: 100%;
 
 }
+
+@media (min-width:768px) {
+  .footer {
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+
+  .footer__calendar,
+  .footer__delivery {
+    flex-basis: 50%;
+    margin: 0 0 0;
+  }
+
+  .footer__delivery {
+    margin: 0 0 5%;
+  }
+
+  .footer__calendar-title {
+    font-size: 3vw;
+  }
+
+  .footer__calendar-description {
+
+    font-size: 2vw;
+  }
+
+  .footer__calendar-list-element,
+  .footer__calendar-graphic-text {
+    font-size: 1.4vw;
+  }
+
+  .footer__delivery-order-title,
+  .footer__delivery-title,
+  .footer__delivery-order-text,
+  .footer__delivery-date-box {
+    font-size: 1.5vw;
+  }
+
+  .footer__delivery-order-title,
+  .footer__delivery-title,
+  .footer__delivery-order-text,
+  .footer__delivery-date-box {
+    flex-basis: 2.4vh;
+    line-height: 2.4vh;
+  }
+
+}
