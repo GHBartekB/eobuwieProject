@@ -8,6 +8,8 @@ html {
   --greenPrimary: #2e5d39;
   --greenSecondary: #549c39;
   --redPrimary: #bf3936;
+  --redForPrice: #be2b36;
+  --grayForProductDescription: #A9A9A9;
 
 }
 
@@ -139,4 +141,35 @@ html {
   font-weight: 600;
   color: white;
   text-align: center;
+}
+
+.gift-for-her__products-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+
+}
+
+.gift-for-her__product {
+  flex-basis: 40%;
+  min-height: 35vh;
+  background-color: yellow;
+  text-align: center;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.gift-for-her__product-image {
+  width: 100%;
+}
+
+.gift-for-her__promo-badge {
+  margin: 5% 0 5% 30%;
+  background-color: var(--redForPrice);
+  width: 40%;
+  padding: 2px;
+  border-radius: 4px;
+  color: white;
+
 }
