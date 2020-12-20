@@ -7,6 +7,7 @@
 html {
   --greenPrimary: #2e5d39;
   --greenSecondary: #549c39;
+  --greenDeliveryTitle: #1A3723;
   --redPrimary: #bf3936;
   --redForPrice: #be2b36;
   --grayForProductDescription: #A9A9A9;
@@ -39,8 +40,6 @@ html {
 
 .header__div-text {
   background-color: var(--greenPrimary);
-  align-self: flex-end;
-  justify-self: flex-end;
 }
 
 .header__text {
@@ -187,12 +186,10 @@ html {
 }
 
 .footer {
-
   width: 95%;
   margin: 5% auto 0;
   overflow: hidden;
   color: #fff;
-  border: 2px solid red;
   background-color: var(--greenPrimary);
 }
 
@@ -242,4 +239,92 @@ html {
 
 .footer__calendar-graphic-text {
   font-size: 2.8vw;
+}
+
+.footer__delivery {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  width: 95%;
+  margin: 0 2.5% 10%;
+  overflow: hidden;
+
+}
+
+.footer__delivery-order {
+  flex-basis: 34%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer__delivery-order-text {
+  flex-basis: 5vh;
+  line-height: 5vh;
+  font-size: 3.5vw;
+
+}
+
+.footer__delivery-date {
+  flex-basis: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  text-align: center;
+}
+
+.footer__delivery-order-title,
+.footer__delivery-title {
+  font-size: 3.5vw;
+  flex-basis: 5vh;
+  line-height: 5vh;
+  background-color: var(--greenDeliveryTitle);
+
+}
+
+.footer__delivery-date-box {
+  flex-basis: 5vh;
+  line-height: 5vh;
+  font-size: 3.5vw;
+
+}
+
+.footer__delivery-date-star {
+  width: 5%;
+}
+
+.footer__delivery-date-circle {
+  width: 4%;
+}
+
+.footer__bottom-graphic {
+  position: relative;
+  height: 5vh;
+  background-color: #fff;
+  width: 100%;
+}
+
+@media (min-width:500px) and (orientation:landscape) {
+
+  .footer__delivery-order-title,
+  .footer__delivery-title,
+  .footer__delivery-order-text,
+  .footer__delivery-date-box {
+    flex-basis: 10vh;
+    line-height: 10vh;
+  }
+
+  .footer__bottom-graphic {
+    height: 15vh;
+  }
+
+}
+
+
+.footer__bottom-image {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+
 }
