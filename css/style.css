@@ -173,3 +173,15 @@ html {
   color: white;
 
 }
+
+.gift-ideas__check-more-link {
+  display: block;
+  text-decoration: none;
+  width: 70%;
+  height: 10vh;
+  line-height: 10vh;
+  margin: 5% 15% 0;
+  text-align: center;
+  background-color: #000;
+  color: white;
+}
