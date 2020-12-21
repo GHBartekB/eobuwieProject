@@ -23,7 +23,6 @@ html {
   width: 95%;
   margin: 5% auto 0;
   overflow: hidden;
-  border: 2px solid red;
 
 }
 
@@ -61,7 +60,6 @@ html {
 .main {
   width: 95%;
   margin: 0 auto;
-  border: 2px solid red;
 }
 
 .gift-ideas {
@@ -119,8 +117,6 @@ html {
 
 .gift-for-her {
   margin-bottom: 5%;
-  border: 2px solid green;
-
 }
 
 .gift-for-her__box {
@@ -147,29 +143,68 @@ html {
   flex-wrap: wrap;
   justify-content: space-between;
 
-
 }
 
 .gift-for-her__product {
-  flex-basis: 40%;
-  min-height: 35vh;
-  background-color: yellow;
+  position: relative;
+  flex-basis: 45%;
+  min-height: 45vh;
+  border: 2px solid orange;
   text-align: center;
   text-decoration: none;
   overflow: hidden;
 }
 
 .gift-for-her__product-image {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
   width: 100%;
 }
 
 .gift-for-her__promo-badge {
-  margin: 5% 0 5% 30%;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translateX(-50%);
   background-color: var(--redForPrice);
-  width: 40%;
+  width: 50%;
   padding: 2px;
   border-radius: 4px;
   color: white;
+
+}
+
+.gift-for-her__product-name {
+  position: absolute;
+  top: 73%;
+  left: 50%;
+  width: 100%;
+  transform: translateX(-50%);
+  font-weight: bold;
+  font-size: 4vw;
+  color: #000;
+}
+
+.gift-for-her__product-description {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  color: var(--grayForProductDescription);
+  font-size: 2.8vw;
+}
+
+.gift-for-her__product-price {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: var(--redForPrice);
+  font-weight: bold;
+
 
 }
 
