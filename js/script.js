@@ -24,7 +24,7 @@ const data = [
     {
         prodName: "Duży Portfel Damski Love MOSCHINO",
         prodDescription: "JC5633PP0BKA0000",
-        price: "329,0 zł",
+        price: "439,0 zł",
         promoPrice: null,
         link: "https://www.eobuwie.com.pl/duzy-portfel-damski-love-moschino-jc5633pp0bka0000-nero.html",
     },
@@ -45,7 +45,7 @@ const data = [
     {
         prodName: "Zestaw upominkowy Wittchen",
         prodDescription: "89-S-113",
-        price: "219git zł",
+        price: "219 zł",
         promoPrice: null,
         link: "https://www.eobuwie.com.pl/szal-gino-rossi-o3w4-004-aw20-light-pink.html?snrai_campaign=cZSs64x8Tw9U&snrai_source=&snrai_content=&snrai_id=abd87455c0cf3e5caf51f8c2f090dbf7",
     },

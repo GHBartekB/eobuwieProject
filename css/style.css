@@ -147,8 +147,8 @@ html {
 
 .gift-for-her__product {
   position: relative;
-  flex-basis: 45%;
-  min-height: 45vh;
+  flex-basis: 48%;
+  height: 40vh;
   border: 2px solid orange;
   text-align: center;
   text-decoration: none;
@@ -160,12 +160,13 @@ html {
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  width: 100%;
+  max-width: 100%;
+  max-height: 52%;
 }
 
 .gift-for-her__promo-badge {
   position: absolute;
-  top: 60%;
+  top: 50%;
   left: 50%;
   transform: translateX(-50%);
   background-color: var(--redForPrice);
@@ -178,29 +179,30 @@ html {
 
 .gift-for-her__product-name {
   position: absolute;
-  top: 73%;
+  top: 70%;
   left: 50%;
   width: 100%;
   transform: translateX(-50%);
   font-weight: bold;
-  font-size: 4vw;
+  font-size: 2.5vw;
   color: #000;
 }
 
 .gift-for-her__product-description {
   position: absolute;
-  top: 80%;
+  top: 75%;
   left: 50%;
   transform: translateX(-50%);
   width: 100%;
   color: var(--grayForProductDescription);
-  font-size: 2.8vw;
+  font-size: 2.5vw;
 }
 
 .gift-for-her__product-price {
   position: absolute;
-  top: 90%;
+  top: 85%;
   left: 50%;
+  width: 100%;
   transform: translateX(-50%);
   color: var(--redForPrice);
   font-weight: bold;
