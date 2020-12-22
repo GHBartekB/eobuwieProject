@@ -218,8 +218,7 @@ html {
 }
 
 .last-module {
-  margin: 10px;
-  overflow: hidden;
+  margin: 10px auto;
   color: #fff;
   background-color: var(--greenPrimary);
 }
@@ -442,11 +441,14 @@ html {
     display: flex;
     flex-wrap: wrap;
 
+
+
   }
 
   .last-module__calendar,
   .last-module__delivery {
     flex-basis: 50%;
+    margin: 0 auto;
   }
 
   .last-module__delivery {
@@ -616,13 +618,22 @@ html {
     height: 40vh;
   }
 
+  .last-module {
+    margin: 30px auto;
 
-  .footer__delivery-order-title,
-  .footer__delivery-title,
-  .footer__delivery-order-text,
-  .footer__delivery-date-box {
+  }
+
+
+  .last-module__delivery-order-title,
+  .last-module__delivery-title,
+  .last-module__delivery-order-text,
+  .last-module__delivery-date-box {
     flex-basis: 5.4vh;
     line-height: 5.4vh;
+  }
+
+  .last-module__bottom-graphic {
+    line-height: 3vh;
   }
 
 }
@@ -681,4 +692,7 @@ html {
   .last-module__delivery-date-box {
     font-size: 1vw;
   }
+
+
+
 }
