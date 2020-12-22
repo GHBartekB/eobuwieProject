@@ -139,10 +139,10 @@ html {
 }
 
 .gift-for-her__product {
+  margin-top: 20px;
   position: relative;
   flex-basis: 48%;
   height: 40vh;
-  border: 2px solid orange;
   text-align: center;
   text-decoration: none;
 }
@@ -543,6 +543,12 @@ html {
     top: 85%;
   }
 
+  .gift-ideas__check-more-link {
+    height: 6vh;
+    line-height: 6vh;
+    font-size: 2vw;
+  }
+
 }
 
 @media (min-width:1024px) and (orientation:landscape) {
@@ -556,9 +562,18 @@ html {
     transform: translate(-125%, -50%);
   }
 
+  .gift-for-her__product-price {
+
+    font-size: 1.6vw;
+  }
+
+  .gift-for-her__product-price--old {
+    font-size: 1.4vw;
+  }
+
   .gift-ideas__check-more-link {
-    height: 6vh;
-    line-height: 6vh;
+    height: 10vh;
+    line-height: 10vh;
     font-size: 2vw;
     border: 2px solid white;
     border-radius: 5px;
@@ -593,11 +608,21 @@ html {
     font-size: 3.5vw;
   }
 
+  .gift-ideas__link {
+    font-size: 1.5vw;
+  }
+
+
   .gift-for-her__title {
     font-size: 3.5vw;
     width: 25%;
     transform: translate(-135%, -90%);
   }
+
+  .gift-for-her__product {
+    height: 40vh;
+  }
+
 
   .footer__delivery-order-title,
   .footer__delivery-title,
@@ -610,10 +635,6 @@ html {
 }
 
 @media (min-width:1400px) {
-  .gift-ideas__link {
-    font-size: 1.5vw;
-  }
-
 
   .gift-for-her__title {
     font-size: 3.5vw;
@@ -633,6 +654,13 @@ html {
     font-size: 0.8vw;
   }
 
+  .gift-for-her__product-price {
+    font-size: 1.5vw;
+  }
+
+  .gift-for-her__product-price--old {
+    font-size: 1.3vw;
+  }
 
   .gift-ideas__check-more-link {
     font-size: 1.5vw;
