@@ -479,12 +479,6 @@ html {
   .footer__delivery-order-text,
   .footer__delivery-date-box {
     font-size: 1.5vw;
-  }
-
-  .footer__delivery-order-title,
-  .footer__delivery-title,
-  .footer__delivery-order-text,
-  .footer__delivery-date-box {
     flex-basis: 2.4vh;
     line-height: 2.4vh;
   }
@@ -549,4 +543,121 @@ html {
     top: 85%;
   }
 
+}
+
+@media (min-width:1024px) and (orientation:landscape) {
+  .gift-ideas__title {
+    font-size: 6vw;
+  }
+
+  .gift-for-her__title {
+    font-size: 5vw;
+    width: 30%;
+    transform: translate(-125%, -50%);
+  }
+
+  .gift-ideas__check-more-link {
+    height: 6vh;
+    line-height: 6vh;
+    font-size: 2vw;
+    border: 2px solid white;
+    border-radius: 5px;
+    transition: .5s;
+  }
+
+  .gift-ideas__check-more-link:hover {
+    color: black;
+    background-color: #fff;
+    border: 2px solid black;
+
+  }
+
+
+  .footer__delivery-order-title,
+  .footer__delivery-title,
+  .footer__delivery-order-text,
+  .footer__delivery-date-box {
+    flex-basis: 5.4vh;
+    line-height: 5.4vh;
+  }
+
+}
+
+@media (min-width:1200px) {
+
+  .header__text {
+    font-size: 2.5vw;
+  }
+
+  .gift-ideas__title {
+    font-size: 3.5vw;
+  }
+
+  .gift-for-her__title {
+    font-size: 3.5vw;
+    width: 25%;
+    transform: translate(-135%, -90%);
+  }
+
+  .footer__delivery-order-title,
+  .footer__delivery-title,
+  .footer__delivery-order-text,
+  .footer__delivery-date-box {
+    flex-basis: 5.4vh;
+    line-height: 5.4vh;
+  }
+
+}
+
+@media (min-width:1400px) {
+  .gift-ideas__link {
+    font-size: 1.5vw;
+  }
+
+
+  .gift-for-her__title {
+    font-size: 3.5vw;
+    width: 30%;
+    transform: translate(-125%, -60%);
+  }
+
+  .gift-for-her__product {
+    height: 40vh;
+  }
+
+  .gift-for-her__product-name {
+    font-size: 0.9vw;
+  }
+
+  .gift-for-her__product-description {
+    font-size: 0.8vw;
+  }
+
+
+  .gift-ideas__check-more-link {
+    font-size: 1.5vw;
+  }
+
+
+  .footer__calendar-title {
+    font-size: 2vw;
+  }
+
+  .footer__calendar-description {
+
+    font-size: 1.5vw;
+  }
+
+  .footer__calendar-list-element,
+  .footer__calendar-graphic-text {
+    font-size: 1vw;
+  }
+
+
+  .footer__delivery-order-title,
+  .footer__delivery-title,
+  .footer__delivery-order-text,
+  .footer__delivery-date-box {
+    font-size: 1vw;
+  }
 }
