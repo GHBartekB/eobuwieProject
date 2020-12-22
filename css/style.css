@@ -595,12 +595,17 @@ html {
 
 @media (min-width:1200px) {
 
+  .top-module__image--desktop {
+    margin-bottom: 60px;
+  }
+
   .top-module__text {
     font-size: 2.5vw;
   }
 
   .gift-ideas__title {
     font-size: 3.5vw;
+    margin: 50px 0 80px;
   }
 
   .gift-ideas__link {
