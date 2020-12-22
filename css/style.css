@@ -356,49 +356,6 @@ html {
 
 /* RWD */
 
-@media(min-width:768px) {
-
-  .header__image {
-    display: none;
-  }
-
-  .header__image--desktop {
-    display: block;
-  }
-
-  .header__text {
-    font-size: 4vw;
-    padding: 1vw;
-  }
-}
-
-
-@media (min-width:768px) {
-  .gift-ideas__box {
-    height: 10vh;
-    flex-basis: 20%;
-  }
-
-  .gift-ideas__link {
-    font-size: 2vw;
-  }
-}
-
-
-@media (min-width:768px) {
-  .gift-for-her__image {
-    display: none;
-  }
-
-  .gift-for-her__image--desktop {
-    display: block;
-  }
-
-  .gift-for-her__title {
-    transform: translate(-90%, -25%);
-  }
-}
-
 
 @media (min-width:500px) and (orientation:landscape) {
   .gift-for-her__product {
@@ -413,9 +370,56 @@ html {
     top: 72.5%;
   }
 
+  .footer__delivery-order-title,
+  .footer__delivery-title,
+  .footer__delivery-order-text,
+  .footer__delivery-date-box {
+    flex-basis: 10vh;
+    line-height: 10vh;
+  }
+
+  .footer__bottom-graphic {
+    height: 15vh;
+  }
+
+
 }
 
-@media (min-width:768px) {
+@media(min-width:768px) {
+
+  .header__image {
+    display: none;
+  }
+
+  .header__image--desktop {
+    display: block;
+  }
+
+  .header__text {
+    font-size: 4vw;
+    padding: 1vw;
+  }
+
+  .gift-ideas__box {
+    height: 10vh;
+    flex-basis: 20%;
+  }
+
+  .gift-ideas__link {
+    font-size: 2vw;
+  }
+
+  .gift-for-her__image {
+    display: none;
+  }
+
+  .gift-for-her__image--desktop {
+    display: block;
+  }
+
+  .gift-for-her__title {
+    transform: translate(-90%, -25%);
+  }
 
   .gift-for-her__product {
     flex-basis: 24.5%;
@@ -439,65 +443,7 @@ html {
   .gift-for-her__product-price {
     font-size: 2.5vw;
   }
-}
 
-@media (min-width:768px) and (orientation:landscape) {
-  .gift-for-her__product-name {
-    top: 63%;
-
-  }
-
-  .gift-for-her__product-description {
-    top: 71%;
-  }
-
-  .gift-for-her__product-price-box {
-    top: 80%;
-  }
-}
-
-@media (min-width:768px) and (max-height:600px) {
-
-  .gift-for-her__product {
-    flex-basis: 24.5%;
-    height: 50vh;
-  }
-
-}
-
-@media (min-width:768px) and (min-height:1024px) {
-
-  .gift-for-her__product-description {
-    font-size: 1.3vw;
-    top: 70%;
-  }
-
-  .gift-for-her__product-price-box {
-    top: 85%;
-  }
-
-}
-
-
-@media (min-width:500px) and (orientation:landscape) {
-
-  .footer__delivery-order-title,
-  .footer__delivery-title,
-  .footer__delivery-order-text,
-  .footer__delivery-date-box {
-    flex-basis: 10vh;
-    line-height: 10vh;
-  }
-
-  .footer__bottom-graphic {
-    height: 15vh;
-  }
-
-}
-
-
-
-@media (min-width:768px) {
   .footer {
     display: flex;
     flex-wrap: wrap;
@@ -550,18 +496,33 @@ html {
   .footer__bottom-image--desktop {
     display: block;
   }
+
+
 }
 
+@media (min-width:768px) and (max-height:600px) {
 
+  .gift-for-her__product {
+    flex-basis: 24.5%;
+    height: 50vh;
+  }
 
+}
 
+@media (min-width:768px) and (orientation:landscape) {
+  .gift-for-her__product-name {
+    top: 63%;
 
+  }
 
+  .gift-for-her__product-description {
+    top: 71%;
+  }
 
-
-
-
-
+  .gift-for-her__product-price-box {
+    top: 80%;
+  }
+}
 
 
 @media(min-width:768px) and (max-height: 600px) {
@@ -575,4 +536,17 @@ html {
     line-height: 8.5vh;
 
   }
+}
+
+@media (min-width:768px) and (min-height:1024px) {
+
+  .gift-for-her__product-description {
+    font-size: 1.3vw;
+    top: 70%;
+  }
+
+  .gift-for-her__product-price-box {
+    top: 85%;
+  }
+
 }
