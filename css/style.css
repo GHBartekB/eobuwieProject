@@ -232,20 +232,19 @@
 
 .last-module__calendar-description {
   font-size: 4vw;
-  width: 90%;
   margin: 25px auto;
   text-align: center;
 
 }
 
 .last-module__calendar-list {
-  margin: 10px 5px;
+  margin: 30px 0;
   list-style: none;
 }
 
 .last-module__calendar-list-element {
   margin: 20px 0;
-  font-size: 2.8vw;
+  font-size: 2.6vw;
 }
 
 
@@ -440,8 +439,6 @@
   .last-module {
     display: flex;
     flex-wrap: wrap;
-
-
 
   }
 
