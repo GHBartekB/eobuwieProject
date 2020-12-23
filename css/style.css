@@ -796,6 +796,8 @@
   .last-module__delivery-order-text,
   .last-module__delivery-date-box {
     font-size: 1vw;
+    line-height: 3.5vh;
+    flex-basis: 3.5vh;
   }
 
 }
