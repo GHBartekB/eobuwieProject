@@ -680,7 +680,7 @@
 
 }
 
-@media (min-width:1024px) and (max-height:1366px) {
+@media (min-width:1024px) and (min-height:1366px) {
 
   .last-module__delivery-order-title,
   .last-module__delivery-title,
@@ -754,7 +754,7 @@
 
 }
 
-@media (min-width:1366px) {
+@media (min-width:1366px) and (orientation: landscape) {
 
   .gift-for-her__title {
     font-size: 3.5vw;
@@ -812,7 +812,7 @@
 
 }
 
-@media (min-width:1366px) and (max-height:1024px) {
+@media (min-width:1366px) and (min-height:1000px) {
 
   .last-module__delivery-order-title,
   .last-module__delivery-title,
@@ -822,6 +822,7 @@
     line-height: 2.6vh;
   }
 }
+
 
 @media (min-width:1600px) {
 
@@ -838,7 +839,7 @@
   .last-module__delivery-order-text,
   .last-module__delivery-date-box {
     font-size: 1.1vw;
-    line-height: 2.8vh;
-    flex-basis: 2.8vh;
+    line-height: 3vh;
+    flex-basis: 3vh;
   }
 }
