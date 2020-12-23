@@ -185,9 +185,7 @@
 
 }
 
-
 .gift-for-her__product-name {
-
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -282,7 +280,6 @@
   font-size: 4vw;
   margin: 25px auto;
   text-align: center;
-
 }
 
 .last-module__calendar-list {
@@ -310,7 +307,6 @@
   margin: 10px auto;
   align-items: center;
   justify-items: center;
-
 }
 
 .last-module__calendar-graphic-star {
@@ -359,9 +355,7 @@
   padding: 0;
   flex-basis: 5vh;
   line-height: 5vh;
-  font-size: 3.5vw;
-
-
+  font-size: 3.4vw;
 }
 
 .last-module__delivery-date {
@@ -384,7 +378,6 @@
   flex-basis: 5vh;
   line-height: 5vh;
   background-color: #1A3723;
-
 }
 
 .last-module__delivery-date-box {
@@ -394,8 +387,6 @@
   flex-basis: 5vh;
   line-height: 5vh;
   font-size: 3.5vw;
-
-
 }
 
 .last-module__delivery-date-star {
