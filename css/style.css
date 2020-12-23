@@ -355,7 +355,7 @@
   padding: 0;
   flex-basis: 5vh;
   line-height: 5vh;
-  font-size: 3.4vw;
+  font-size: 3.3vw;
 }
 
 .last-module__delivery-date {
@@ -374,7 +374,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-size: 3.5vw;
+  font-size: 3.3vw;
   flex-basis: 5vh;
   line-height: 5vh;
   background-color: #1A3723;
@@ -704,8 +704,8 @@
   .last-module__delivery-title,
   .last-module__delivery-order-text,
   .last-module__delivery-date-box {
-    flex-basis: 5.4vh;
-    line-height: 5.4vh;
+    flex-basis: 3.1vh;
+    line-height: 3.1vh;
   }
 
   .last-module__bottom-graphic {
@@ -713,6 +713,20 @@
   }
 
 }
+
+@media (min-width:1200px) and (max-height:900px) {
+
+  .last-module__delivery-order-title,
+  .last-module__delivery-title,
+  .last-module__delivery-order-text,
+  .last-module__delivery-date-box {
+    flex-basis: 4vh;
+    line-height: 4vh;
+  }
+
+}
+
+
 
 @media (min-width:1400px) {
 
