@@ -483,17 +483,28 @@
     display: block;
   }
 
-
 }
 
-@media (min-width:768px) and (max-height:600px) {
+@media(min-width:768px) and (max-height: 600px) {
 
   .gift-for-her__product {
     flex-basis: 24.5%;
     height: 50vh;
   }
 
+
+  .last-module__delivery-order-title,
+  .last-module__delivery-title,
+  .last-module__delivery-order-text,
+  .last-module__delivery-date-box {
+    flex-basis: 5.5vh;
+    line-height: 5.5vh;
+
+  }
 }
+
+
+
 
 @media (min-width:768px) and (orientation:landscape) {
   .gift-for-her__product-name {
@@ -507,20 +518,6 @@
 
   .gift-for-her__product-price-box {
     top: 80%;
-  }
-}
-
-
-@media(min-width:768px) and (max-height: 600px) {
-
-
-  .last-module__delivery-order-title,
-  .last-module__delivery-title,
-  .last-module__delivery-order-text,
-  .last-module__delivery-date-box {
-    flex-basis: 8.5vh;
-    line-height: 8.5vh;
-
   }
 }
 
