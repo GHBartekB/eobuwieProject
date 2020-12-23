@@ -658,8 +658,8 @@
   .last-module__delivery-title,
   .last-module__delivery-order-text,
   .last-module__delivery-date-box {
-    flex-basis: 5.4vh;
-    line-height: 5.4vh;
+    flex-basis: 3.8vh;
+    line-height: 3.8vh;
   }
 
 }
