@@ -796,8 +796,28 @@
   .last-module__delivery-order-text,
   .last-module__delivery-date-box {
     font-size: 1vw;
-    line-height: 3.5vh;
-    flex-basis: 3.5vh;
+    line-height: 4.2vh;
+    flex-basis: 4.2vh;
   }
 
+}
+
+@media (min-width:1600px) {
+
+  .last-module__calendar-title {
+    font-size: 1.5vw;
+  }
+
+  .last-module__calendar-description {
+    font-size: 1.7vw;
+  }
+
+  .last-module__delivery-order-title,
+  .last-module__delivery-title,
+  .last-module__delivery-order-text,
+  .last-module__delivery-date-box {
+    font-size: 1.1vw;
+    line-height: 2.8vh;
+    flex-basis: 2.8vh;
+  }
 }
