@@ -50,14 +50,9 @@
   padding: 0;
 }
 
-
-
 .top-module {
-
   margin: 0 auto;
   padding: 10px;
-
-
 }
 
 .top-module__image,
@@ -284,7 +279,6 @@
   margin: 20px 0;
   font-size: 2.7vw;
 }
-
 
 .last-module__calendar-graphic {
   display: grid;
