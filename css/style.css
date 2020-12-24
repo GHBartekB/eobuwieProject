@@ -5,25 +5,71 @@
   margin: 0 auto;
 }
 
+.top-module,
+.top-module__image,
+.top-module__image--desktop,
+.middle-module,
+.gift-ideas,
+.gift-ideas__title,
+.gift-ideas__boxes,
+.gift-for-her,
+.gift-for-her__box,
+.gift-for-her__image,
+.gift-for-her__image--desktop,
+.gift-for-her__title,
+.gift-for-her__products-list,
+.gift-for-her__product,
+.gift-for-her__product-image,
+.gift-for-her__promo-badge,
+.gift-for-her__product-name,
+.gift-for-her__product-description,
+.gift-for-her__product-price-box,
+.gift-for-her__product-price,
+.gift-ideas__check-more-link,
+.last-module,
+.last-module__calendar,
+.last-module__calendar-title,
+.last-module__calendar-list,
+.last-module__calendar-list-element,
+.last-module__calendar-graphic,
+.last-module__calendar-graphic-star,
+.last-module__calendar-graphic-circle,
+.last-module__calendar-graphic-text,
+.last-module__delivery,
+.last-module__delivery-order,
+.last-module__delivery-order-text,
+.last-module__delivery-date,
+.last-module__delivery-order-title,
+.last-module__delivery-title,
+.last-module__delivery-date-box,
+.last-module__delivery-date-star,
+.last-module__delivery-date-circle,
+.last-module__bottom-graphic {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+
 .top-module {
 
+  margin: 0 auto;
   padding: 10px;
-  box-sizing: border-box;
+
 
 }
 
 .top-module__image,
 .top-module__image--desktop {
-  box-sizing: border-box;
+
   width: 100%;
   margin-bottom: 20px;
 
 }
 
 .top-module__image--desktop {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+
   display: none;
 }
 
@@ -46,29 +92,22 @@
 }
 
 .middle-module {
-  box-sizing: border-box;
+
   margin: 0 auto;
   padding: 10px;
 }
 
 .gift-ideas {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+  margin: 0 auto;
 }
 
 .gift-ideas__title {
-  box-sizing: border-box;
-  padding: 0;
   margin: 0 0 20px;
   text-align: center;
   font-size: 8vw;
-
 }
 
 .gift-ideas__boxes {
-  box-sizing: border-box;
-  padding: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -95,24 +134,15 @@
 }
 
 .gift-for-her {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  margin-bottom: 10px;
+  margin: 0 auto 10px;
 }
 
 .gift-for-her__box {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
   position: relative;
 }
 
 .gift-for-her__image,
 .gift-for-her__image--desktop {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
   width: 100%;
 }
 
@@ -121,9 +151,6 @@
 }
 
 .gift-for-her__title {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
   position: absolute;
   bottom: 5%;
   left: 50%;
@@ -135,9 +162,6 @@
 }
 
 .gift-for-her__products-list {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -145,9 +169,6 @@
 }
 
 .gift-for-her__product {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
   margin-top: 20px;
   position: relative;
   flex-basis: 48%;
@@ -157,9 +178,6 @@
 }
 
 .gift-for-her__product-image {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
   position: absolute;
   top: 0;
   left: 50%;
@@ -169,8 +187,6 @@
 }
 
 .gift-for-her__promo-badge {
-  box-sizing: border-box;
-  margin: 0;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -184,9 +200,6 @@
 }
 
 .gift-for-her__product-name {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
   position: absolute;
   top: 70%;
   left: 50%;
@@ -198,9 +211,6 @@
 }
 
 .gift-for-her__product-description {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
   position: absolute;
   top: 75%;
   left: 50%;
@@ -211,9 +221,6 @@
 }
 
 .gift-for-her__product-price-box {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
   position: absolute;
   top: 85%;
   left: 50%;
@@ -223,9 +230,6 @@
 }
 
 .gift-for-her__product-price {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
   font-weight: bold;
   color: #be2b36;
 }
@@ -238,8 +242,6 @@
 }
 
 .gift-ideas__check-more-link {
-  box-sizing: border-box;
-  padding: 0;
   display: block;
   text-decoration: none;
   width: 70%;
@@ -252,23 +254,16 @@
 }
 
 .last-module {
-  box-sizing: border-box;
-  padding: 0;
   margin: 10px;
   color: #fff;
   background-color: #2e5d39;
 }
 
 .last-module__calendar {
-  box-sizing: border-box;
   padding: 15px;
-
 }
 
 .last-module__calendar-title {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
   font-size: 5vw;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
@@ -281,24 +276,17 @@
 }
 
 .last-module__calendar-list {
-  box-sizing: border-box;
-  padding: 0;
   margin: 30px 0;
   list-style: none;
 }
 
 .last-module__calendar-list-element {
-  box-sizing: border-box;
-  padding: 0;
   margin: 20px 0;
   font-size: 2.7vw;
 }
 
 
 .last-module__calendar-graphic {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
   display: grid;
   grid-template-columns: 1fr 3fr 1fr 3fr;
   width: 90%;
@@ -308,28 +296,18 @@
 }
 
 .last-module__calendar-graphic-star {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
   width: 70%;
 }
 
 .last-module__calendar-graphic-circle {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
   width: 50%;
 }
 
 .last-module__calendar-graphic-text {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
   font-size: 2.7vw;
 }
 
 .last-module__delivery {
-  box-sizing: border-box;
   display: flex;
   justify-content: space-between;
   align-content: center;
@@ -338,9 +316,6 @@
 }
 
 .last-module__delivery-order {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
   flex-basis: 34%;
   display: flex;
   flex-direction: column;
@@ -348,18 +323,12 @@
 }
 
 .last-module__delivery-order-text {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
   flex-basis: 5vh;
   line-height: 5vh;
   font-size: 3.3vw;
 }
 
 .last-module__delivery-date {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
   flex-basis: 65%;
   display: flex;
   flex-direction: column;
@@ -369,9 +338,6 @@
 
 .last-module__delivery-order-title,
 .last-module__delivery-title {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
   font-size: 3.3vw;
   flex-basis: 5vh;
   line-height: 5vh;
@@ -379,32 +345,20 @@
 }
 
 .last-module__delivery-date-box {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
   flex-basis: 5vh;
   line-height: 5vh;
   font-size: 3.5vw;
 }
 
 .last-module__delivery-date-star {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
   width: 5%;
 }
 
 .last-module__delivery-date-circle {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
   width: 4%;
 }
 
 .last-module__bottom-graphic {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
   position: relative;
   height: 5vh;
   background-color: #fff;
@@ -450,8 +404,6 @@
   .last-module__bottom-graphic {
     height: 15vh;
   }
-
-
 }
 
 @media(min-width:768px) {
@@ -570,7 +522,6 @@
     height: 50vh;
   }
 
-
   .last-module__delivery-order-title,
   .last-module__delivery-title,
   .last-module__delivery-order-text,
@@ -671,7 +622,6 @@
 
   }
 
-
   .last-module__delivery-order-title,
   .last-module__delivery-title,
   .last-module__delivery-order-text,
@@ -693,7 +643,6 @@
   }
 }
 
-
 @media (min-width:1200px) {
 
   .top-module__image--desktop {
@@ -713,7 +662,6 @@
     font-size: 1.5vw;
   }
 
-
   .gift-for-her__title {
     font-size: 3.5vw;
     width: 25%;
@@ -728,7 +676,6 @@
     margin: 30px auto;
 
   }
-
 
   .last-module__delivery-order-title,
   .last-module__delivery-title,
@@ -788,7 +735,6 @@
     font-size: 1.5vw;
   }
 
-
   .last-module__calendar-title {
     font-size: 2vw;
   }
@@ -824,7 +770,6 @@
     line-height: 2.6vh;
   }
 }
-
 
 @media (min-width:1600px) {
 
