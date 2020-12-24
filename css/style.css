@@ -319,7 +319,7 @@
 .last-module__delivery-order-text {
   flex-basis: 5vh;
   line-height: 5vh;
-  font-size: 3.3vw;
+  font-size: 3vw;
 }
 
 .last-module__delivery-date {
@@ -332,7 +332,7 @@
 
 .last-module__delivery-order-title,
 .last-module__delivery-title {
-  font-size: 3.3vw;
+  font-size: 3vw;
   flex-basis: 5vh;
   line-height: 5vh;
   background-color: #1A3723;
