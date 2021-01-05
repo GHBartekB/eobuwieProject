@@ -187,7 +187,7 @@
   left: 50%;
   transform: translateX(-50%);
   background-color: #be2b36;
-  width: 50%;
+  width: 40%;
   padding: 2px;
   border-radius: 4px;
   color: white;
@@ -438,6 +438,10 @@
   .gift-for-her__product {
     flex-basis: 24.5%;
     height: 27vh;
+  }
+
+  .gift-for-her__promo-badge {
+    width: 30%;
   }
 
   .gift-for-her__product-name {
@@ -854,8 +858,6 @@
     flex-basis: 32px;
   }
 
-
-
   .last-module__delivery-order-title,
   .last-module__delivery-title,
   .last-module__delivery-order-text,
@@ -873,7 +875,5 @@
     height: 6vh;
     max-height: 100px;
   }
-
-
 
 }
