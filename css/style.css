@@ -699,9 +699,11 @@
 @media (min-width:1366px) and (orientation: landscape) {
 
   .gift-for-her__title {
-    font-size: 3.5vw;
+    font-size: 4.5vw;
     width: 30%;
-    transform: translate(-125%, -60%);
+    height: 15vh;
+    bottom: 50%;
+    transform: translate(-125%, 100%);
   }
 
   .gift-for-her__product {
@@ -765,6 +767,10 @@
 }
 
 @media (min-width:1600px) {
+
+  .gift-for-her__title {
+    font-size: 3.5vw;
+  }
 
   .last-module__calendar-title {
     font-size: 1.5vw;
