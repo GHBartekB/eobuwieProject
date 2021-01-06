@@ -45,6 +45,7 @@
 .last-module__delivery-date-star,
 .last-module__delivery-date-circle,
 .last-module__bottom-graphic {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -103,19 +104,31 @@
 }
 
 .gift-ideas__boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   margin: 20px 30px;
 }
 
 .gift-ideas__box {
   height: 20vw;
+  -ms-flex-preferred-size: 45%;
   flex-basis: 45%;
   margin-bottom: 20px;
   background-color: #549c39;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   text-decoration: none;
 
@@ -149,6 +162,8 @@
   position: absolute;
   bottom: 5%;
   left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
   transform: translateX(-50%);
   font-size: 7vw;
   font-weight: 600;
@@ -157,8 +172,13 @@
 }
 
 .gift-for-her__products-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 
 }
@@ -166,6 +186,7 @@
 .gift-for-her__product {
   margin-top: 20px;
   position: relative;
+  -ms-flex-preferred-size: 48%;
   flex-basis: 48%;
   height: 40vh;
   text-align: center;
@@ -176,6 +197,8 @@
   position: absolute;
   top: 0;
   left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
   transform: translateX(-50%);
   max-width: 100%;
   max-height: 52%;
@@ -185,6 +208,8 @@
   position: absolute;
   top: 50%;
   left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
   transform: translateX(-50%);
   background-color: #be2b36;
   width: 40%;
@@ -199,6 +224,8 @@
   top: 70%;
   left: 50%;
   width: 100%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
   transform: translateX(-50%);
   font-weight: bold;
   font-size: 2.3vw;
@@ -209,6 +236,8 @@
   position: absolute;
   top: 75%;
   left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
   transform: translateX(-50%);
   width: 100%;
   color: #A9A9A9;
@@ -220,6 +249,8 @@
   top: 85%;
   left: 50%;
   width: 100%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
   transform: translateX(-50%);
 
 }
@@ -306,29 +337,47 @@
 }
 
 .last-module__delivery {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
+  -ms-flex-line-pack: center;
   align-content: center;
   padding: 10px;
 
 }
 
 .last-module__delivery-order {
+  -ms-flex-preferred-size: 34%;
   flex-basis: 34%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   text-align: center;
 }
 
 .last-module__delivery-order-text {
+  -ms-flex-preferred-size: 5vh;
   flex-basis: 5vh;
   line-height: 5vh;
   font-size: 2.7vw;
 }
 
 .last-module__delivery-date {
+  -ms-flex-preferred-size: 65%;
   flex-basis: 65%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   justify-items: center;
   text-align: center;
@@ -337,12 +386,14 @@
 .last-module__delivery-order-title,
 .last-module__delivery-title {
   font-size: 2.8vw;
+  -ms-flex-preferred-size: 5vh;
   flex-basis: 5vh;
   line-height: 5vh;
   background-color: #1A3723;
 }
 
 .last-module__delivery-date-box {
+  -ms-flex-preferred-size: 5vh;
   flex-basis: 5vh;
   line-height: 5vh;
 }
@@ -394,6 +445,7 @@
   .last-module__delivery-title,
   .last-module__delivery-order-text,
   .last-module__delivery-date-box {
+    -ms-flex-preferred-size: 10vh;
     flex-basis: 10vh;
     line-height: 10vh;
   }
@@ -420,6 +472,7 @@
 
   .gift-ideas__box {
     height: 10vh;
+    -ms-flex-preferred-size: 20%;
     flex-basis: 20%;
   }
 
@@ -436,10 +489,13 @@
   }
 
   .gift-for-her__title {
+    -webkit-transform: translate(-90%, -25%);
+    -ms-transform: translate(-90%, -25%);
     transform: translate(-90%, -25%);
   }
 
   .gift-for-her__product {
+    -ms-flex-preferred-size: 24.5%;
     flex-basis: 24.5%;
     height: 27vh;
   }
@@ -467,13 +523,17 @@
   }
 
   .last-module {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 
   }
 
   .last-module__calendar,
   .last-module__delivery {
+    -ms-flex-preferred-size: 50%;
     flex-basis: 50%;
     margin: 0 auto;
   }
@@ -487,6 +547,7 @@
   }
 
   .last-module__calendar-description {
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     padding: 0;
     font-size: 2.5vw;
@@ -502,6 +563,7 @@
   .last-module__delivery-order-text,
   .last-module__delivery-date-box {
     font-size: 1.5vw;
+    -ms-flex-preferred-size: 2.4vh;
     flex-basis: 2.4vh;
     line-height: 2.4vh;
   }
@@ -519,6 +581,7 @@
 @media(min-width:768px) and (max-height: 600px) {
 
   .gift-for-her__product {
+    -ms-flex-preferred-size: 24.5%;
     flex-basis: 24.5%;
     height: 50vh;
   }
@@ -527,6 +590,7 @@
   .last-module__delivery-title,
   .last-module__delivery-order-text,
   .last-module__delivery-date-box {
+    -ms-flex-preferred-size: 5.5vh;
     flex-basis: 5.5vh;
     line-height: 5.5vh;
 
@@ -575,6 +639,8 @@
   .gift-for-her__title {
     font-size: 5vw;
     width: 30%;
+    -webkit-transform: translate(-125%, -50%);
+    -ms-transform: translate(-125%, -50%);
     transform: translate(-125%, -50%);
   }
 
@@ -593,10 +659,14 @@
     font-size: 2vw;
     border: 2px solid white;
     border-radius: 5px;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
     transition: .5s;
   }
 
   .gift-ideas__box {
+    -webkit-transition: .5s;
+    -o-transition: .5s;
     transition: .5s;
     border: 2px solid white;
   }
@@ -609,6 +679,8 @@
 
 
   .gift-ideas__link {
+    -webkit-transition: .5s;
+    -o-transition: .5s;
     transition: .5s;
   }
 
@@ -627,6 +699,7 @@
   .last-module__delivery-title,
   .last-module__delivery-order-text,
   .last-module__delivery-date-box {
+    -ms-flex-preferred-size: 3.8vh;
     flex-basis: 3.8vh;
     line-height: 3.8vh;
   }
@@ -639,6 +712,7 @@
   .last-module__delivery-title,
   .last-module__delivery-order-text,
   .last-module__delivery-date-box {
+    -ms-flex-preferred-size: 2vh;
     flex-basis: 2vh;
     line-height: 2vh;
   }
@@ -666,6 +740,8 @@
   .gift-for-her__title {
     font-size: 3.5vw;
     width: 25%;
+    -webkit-transform: translate(-135%, -90%);
+    -ms-transform: translate(-135%, -90%);
     transform: translate(-135%, -90%);
   }
 
@@ -682,6 +758,7 @@
   .last-module__delivery-title,
   .last-module__delivery-order-text,
   .last-module__delivery-date-box {
+    -ms-flex-preferred-size: 3.1vh;
     flex-basis: 3.1vh;
     line-height: 3.1vh;
   }
@@ -693,6 +770,7 @@
   .last-module__delivery-title,
   .last-module__delivery-order-text,
   .last-module__delivery-date-box {
+    -ms-flex-preferred-size: 4vh;
     flex-basis: 4vh;
     line-height: 4vh;
   }
@@ -706,6 +784,8 @@
     width: 30%;
     height: 15vh;
     bottom: 50%;
+    -webkit-transform: translate(-125%, 100%);
+    -ms-transform: translate(-125%, 100%);
     transform: translate(-125%, 100%);
   }
 
@@ -757,6 +837,7 @@
   .last-module__delivery-date-box {
     font-size: 1vw;
     line-height: 4.2vh;
+    -ms-flex-preferred-size: 4.2vh;
     flex-basis: 4.2vh;
   }
 
@@ -772,6 +853,7 @@
   .last-module__delivery-title,
   .last-module__delivery-order-text,
   .last-module__delivery-date-box {
+    -ms-flex-preferred-size: 2.6vh;
     flex-basis: 2.6vh;
     line-height: 2.6vh;
   }
@@ -797,6 +879,7 @@
   .last-module__delivery-date-box {
     font-size: 1.1vw;
     line-height: 3vh;
+    -ms-flex-preferred-size: 3vh;
     flex-basis: 3vh;
   }
 
@@ -827,6 +910,8 @@
   .gift-for-her__title {
     font-size: 80px;
     width: 35%;
+    -webkit-transform: translate(-112.5%, 100%);
+    -ms-transform: translate(-112.5%, 100%);
     transform: translate(-112.5%, 100%);
   }
 
@@ -866,6 +951,7 @@
   .last-module__delivery-order-text,
   .last-module__delivery-date-box {
     line-height: 32px;
+    -ms-flex-preferred-size: 32px;
     flex-basis: 32px;
   }
 
