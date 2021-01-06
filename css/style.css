@@ -281,10 +281,14 @@
 }
 
 .last-module__calendar-graphic {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 1fr 3fr 1fr 3fr;
   grid-template-columns: 1fr 3fr 1fr 3fr;
   width: 90%;
   margin: 10px auto;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   justify-items: center;
 }
