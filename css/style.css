@@ -193,6 +193,11 @@
   text-decoration: none;
 }
 
+.gift-for-her__product:hover {
+  border: 2px solid #2E5D39;
+  border-radius: 10px;
+}
+
 .gift-for-her__product-image {
   position: absolute;
   top: 0;
